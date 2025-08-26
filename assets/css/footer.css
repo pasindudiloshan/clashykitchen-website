@@ -1,0 +1,171 @@
+
+/* footer */
+
+
+.myfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+footer{
+    background-color: #000000ff;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    min-width: 250px;
+    color: #f2f2f2f2;
+    font-family: poppins;
+    padding: 0 2rem;
+
+}
+
+.col .mylogo{
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.col h3{
+    color: #ff014fff;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.col h3::after{
+    content: '';
+    height: 3px;
+    width: 30px;
+    background-color: #ff014fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3 ease;
+}
+
+.col h3:hover::after{
+    width: 60px;
+    opacity: 1;
+
+}
+
+.col .social a i {
+    color: #ff014fff;
+    margin-top: 2rem;
+    margin-right: 5px;
+    transition: 0.3 ease;
+
+}
+
+.col .social a i:hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+
+.col .link a{
+    display: block;
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3 ease;
+
+}
+
+.col .link a::before{
+    content: '';
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color: #ff014fff;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.col .link a:hover::before{
+    opacity: 1;
+
+}
+
+.col .link a:hover{
+    transform: translateX(-8px);
+    color: #ff014fff;
+
+}
+
+.col .contact-details {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.col .contact-details i{
+    margin-right: 15px;
+}
+
+.row .from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.from form {
+    display: flex;
+    align-items: center;
+}
+
+.row .from input{
+    background-color: #1a1c20ff;
+    border: 0;
+    outline: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex: 1;
+}
+
+.from button{
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ff014fff;
+    
+}
+
+.from button:hover {
+    opacity: 0.8;
+    color: hsl(0, 0%, 100%);
+    transition: 1.0s;
+}
+
+/* footer end*/
+
