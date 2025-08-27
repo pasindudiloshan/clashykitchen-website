@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen', serif;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 47%);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+
+#navbar{
+    background-color: #cd5316;
+    padding: 30px auto 30px 60px;
+    font-weight: bold;
+    
+}
+#logo{
+    font-size: 10px;
+    color: white;
+
+}
+
+.navbar-nav{
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+    transition: 0.5s ease;
+    font-size: 23px;
+    font-family: 'Uchen', serif;
+}
+.nav-link:hover{
+    background-color: rgb(119, 83, 15);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.search-input {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.search-button {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-button:hover {
+    background-color: rgb(119, 83, 15);
+    color: white;
+}
+
+
+.dropdown-menu .dropdown-item {
+    font-size: 23px;
+}
+
+.icons{
+    display:flex;
+}
+
+.icons img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.icons h5 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    background-size: cover;
+    background-color: red;
+    padding: 4px;
+    border-radius: 50%; /* Changed to 50% for a circular shape */
+    width: 30px; /* Adjust width and height as needed */
+    height: 30px;
+    line-height: 20px; /* Centers text vertically */
+    display: inline-block; /* Ensures the element behaves like an inline-block */
+    margin-left: -18px;
+  }
+
+  
+@media screen and (max-width:330px){
+    #logo{
+        font-size: 15px;
+    }
+}
+
+/* navbar end */
