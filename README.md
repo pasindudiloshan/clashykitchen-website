@@ -4,6 +4,7 @@ Clashy Kitchen is a popular **restaurant in Kandy** that needed an **online webs
 
 The system is built with **PHP, MySQL, HTML, CSS, and JavaScript**, ensuring a smooth and responsive web experience.  
 
+![image alt](https://github.com/pasindudiloshan/clashykitchen-website/blob/6f8d36bc13765e9574d95e03a2e1b1436eee2d1d/README%20cover%20image.png)
 ---
 
 ## 🚀 Features
