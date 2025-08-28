@@ -1,7 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Prioritize PHP for GitHub Linguist stats
+# Include PHP fully in language stats
 *.php linguist-detectable=true
-*.css linguist-detectable=true
+
+# Include JS normally
 *.js linguist-detectable=true
+
+# Exclude CSS from stats to lower its percentage
+*.css linguist-vendored
+
+# Optional: exclude minified CSS/JS if present
+*.min.css linguist-vendored
