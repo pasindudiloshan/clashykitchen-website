@@ -25,7 +25,7 @@ The system is built with **PHP, MySQL, HTML, CSS, and JavaScript**, ensuring a s
 ## 📄 Project Report
 
 The full **System Report** describing the design, database, and implementation can be accessed here:  
-[📑 View System Report](https://docs.google.com/document/d/1FRPoZSXxv0QVIIY3TO98PKzVT5XMOInB/edit?usp=sharing&ouid=108374880673706677958&rtpof=true&sd=true)
+[📑 View System Report]([https://docs.google.com/document/d/1FRPoZSXxv0QVIIY3TO98PKzVT5XMOInB/edit?usp=sharing&ouid=108374880673706677958&rtpof=true&sd=true](https://drive.google.com/file/d/1tr-7ce4pZgkkM3mp5xYO09ikB7zIkxQs/view?usp=sharing))
 
 ---
 
@@ -69,18 +69,40 @@ The full **System Report** describing the design, database, and implementation c
 ## 📁 Folder Structure
 
 ```text
-ClashyKitchen/            
-├── app/            
-│   ├── index.php  
-│   ├── signup.php  
-│   ├── signin.php  
-│   ├── signout.php  
-│   └── database.php  
+CLASHYKITCHEN-WEBSITE/
+├── app/
+│   ├── aboutus.php
+│   ├── additem.php
+│   ├── addpopitem.php
+│   ├── adduser.php
+│   ├── admin_item_update.php
+│   ├── admin_popitem_update.php
+│   ├── adminindex.php
+│   ├── adminnavbar.php
+│   ├── cart.php
+│   ├── cartclear.php
+│   ├── checkout.php
+│   ├── database.php
+│   ├── footer.php
+│   ├── index.php
+│   ├── menu.php
+│   ├── myorder.php
+│   ├── navbar.php
+│   ├── reviews.php
+│   ├── signin.php
+│   ├── signout.php
+│   ├── signup.php
+│   ├── updateuser.php
+│   ├── vieworder.php
+│   ├── viewuser.php
 │
-├── assets/            
-│   ├── css/            
-│   ├── js/             
-│   └── images/         
+├── assets/
+│   ├── add_food_image/
+│   ├── css/
+│   ├── fontsicon/
+│   ├── image/
+│   ├── js/
 │
-├── README.md            
-└── .gitignore
+├── .gitattributes
+└── README.md
+
